@@ -15,7 +15,7 @@ export default function HeroSection() {
             sequence={[
               'Software Engineer', 1000,
               'Web Developer', 1000,
-              'Full Stack Developer', 1000,
+              'Fullstack Developer', 1000,
               'Frontend Developer', 1000
             ]
             }
