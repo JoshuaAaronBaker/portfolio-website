@@ -1,6 +1,6 @@
 'use client';
 import Image from "next/image"
-import heroImage from '../../public/hero-image.png'
+import heroImage from '../../public/images/hero-image.png'
 import {TypeAnimation} from 'react-type-animation'
 
 export default function HeroSection() {
