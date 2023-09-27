@@ -79,7 +79,7 @@ const ProjectSection = () => {
           isSelected={tag === "Mobile"}
         /> */}
       </div>
-    <div>{filteredProjects.map((project) =>
+      <div className="grid md:grid-cols-3 gap-8 md:gap-12">{filteredProjects.map((project) =>
     <ProjectCard key={project.id} title={project.title} technologies={project.technologies} description={project.description} imgUrl={project.imgUrl} gitUrl={project.gitUrl} previewUrl={project.previewUrl}/>)}
     </div>
     </>
